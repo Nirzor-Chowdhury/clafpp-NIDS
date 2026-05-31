@@ -1,0 +1,5 @@
+{
+  "primary_claim": "CLAF++ + Symbolic improves AUROC by 3.54 percentage points over AE only and reduces false alarm rate by 11.58 points.",
+  "meta_claim": "The meta-learner improves AUROC by -0.18 percentage points over soft ensemble fusion, showing that learned stacking is the primary contributor.",
+  "symbolic_claim": "The symbolic enhancement changes AUROC by 0.41 points and false alarm rate by -0.03 points relative to the neural meta model."
+}

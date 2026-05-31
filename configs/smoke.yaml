@@ -1,0 +1,26 @@
+runtime:
+  smoke_test: true
+  experiment_id: exp_publishable_clafpp
+
+dataset:
+  smoke_train_rows: 120
+  smoke_test_rows: 60
+
+models:
+  autoencoder:
+    epochs: 2
+    batch_size: 32
+  ganomaly:
+    epochs: 2
+    batch_size: 32
+  lstm:
+    epochs: 1
+    batch_size: 32
+  cnn:
+    epochs: 1
+    batch_size: 32
+  rf_xgb:
+    random_forest:
+      n_estimators: 20
+    xgboost:
+      n_estimators: 20

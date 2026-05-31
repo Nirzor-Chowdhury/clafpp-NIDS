@@ -1,0 +1,21 @@
+{
+  "config": "configs/base_edge.yaml",
+  "seeds": [
+    42,
+    7,
+    123,
+    1,
+    99
+  ],
+  "tag": "edge",
+  "baseline": "Ensemble (no meta)",
+  "n_models": 8,
+  "metrics_reported": [
+    "AUROC",
+    "AUPRC",
+    "F1",
+    "Precision",
+    "Recall",
+    "FalseAlarmRate"
+  ]
+}

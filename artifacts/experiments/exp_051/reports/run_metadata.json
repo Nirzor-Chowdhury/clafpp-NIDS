@@ -1,0 +1,12 @@
+{
+  "experiment_dir": "artifacts\\experiments\\exp_051",
+  "seed": 42,
+  "dataset_version": "NSL-KDD",
+  "positive_class": "attack",
+  "negative_class": "normal",
+  "train_samples": 100778,
+  "val_samples": 25195,
+  "test_samples": 22544,
+  "primary_method": "Meta-Learner (CLAF++)",
+  "final_method": "CLAF++ + Symbolic"
+}

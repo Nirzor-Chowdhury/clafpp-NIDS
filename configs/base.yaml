@@ -1,0 +1,86 @@
+runtime:
+  seed: 42
+  smoke_test: false
+  raw_data_dir: data/raw
+  artifacts_dir: artifacts
+  experiment_id: null
+
+dataset:
+  version: NSL-KDD
+  train_file: NSL_KDD_Train.csv
+  test_file: NSL_KDD_Test.csv
+  val_size: 0.20
+
+preprocessing:
+  correlation_threshold: 0.985
+  variance_threshold: 0.0
+
+models:
+  autoencoder:
+    hidden_dim: 64
+    latent_dim: 12
+    dropout: 0.10
+    lr: 0.001
+    epochs: 100   # 🔥 INCREASED
+    batch_size: 64
+    denoising_sigma: 0.02
+
+  ganomaly:
+    hidden_dim: 64
+    latent_dim: 12
+    lr: 0.001
+    epochs: 80    # 🔥 SAFE INCREASE
+    batch_size: 64
+    lambda_adv: 1.0
+    lambda_con: 20.0
+    lambda_enc: 1.0
+
+  lstm:
+    seq_len: 6
+    hidden_dim: 32
+    num_layers: 1
+    lr: 0.001
+    epochs: 50    # 🔥 OPTIMAL
+    batch_size: 64
+    dropout: 0.10
+
+  cnn:
+    channels: 16
+    lr: 0.001
+    epochs: 50    # 🔥 OPTIMAL
+    batch_size: 64
+    dropout: 0.10
+
+  rf_xgb:
+    random_forest:
+      n_estimators: 100   # 🔥 increased
+      class_weight: balanced_subsample
+    xgboost:
+      n_estimators: 200   # 🔥 increased
+      max_depth: 5
+      learning_rate: 0.05
+      subsample: 0.90
+      colsample_bytree: 0.90
+      min_child_weight: 1.0
+      reg_lambda: 1.0
+
+fusion:
+  generative_branch:
+    weight_floor: 0.08
+  soft_voting:
+    weight_floor: 0.10
+
+  meta_learner:
+    type: logistic_regression   # 🔥 UPGRADED
+
+  symbolic:
+    weight_floor: 0.7
+    max_lambda: 0.3   # 🔥 tuned
+    lambda_steps: 25
+    objective: auprc
+
+evaluation:
+  threshold:
+    recall_floor: 0.88   # 🔥 relaxed
+    far_ceiling: 0.15
+    grid_size: 101

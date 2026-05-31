@@ -1,0 +1,8 @@
+Model,F1_mean_diff,F1_std_diff,Wilcoxon_p,Paired_t_p,Cohens_d,Effect,Sig_at_0.05
+AE only,-0.2862,0.0531,0.0625,0.0003,-5.391,large,NO
+CLAF++ + Symbolic,0.0014,0.0007,0.0625,0.0111,1.999,large,NO
+CNN,-0.0012,0.001,0.125,0.0574,-1.182,large,NO
+Generative branch,-0.2597,0.0521,0.0625,0.0004,-4.982,large,NO
+LSTM,-0.0025,0.0013,0.0625,0.012,-1.955,large,NO
+Meta-Learner (CLAF++),0.0016,0.0009,0.0625,0.0196,1.685,large,NO
+RF/XGB,0.0021,0.0007,0.0625,0.0023,3.094,large,NO

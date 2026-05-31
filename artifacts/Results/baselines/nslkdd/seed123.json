@@ -1,0 +1,19 @@
+{
+  "threshold": 0.01,
+  "AUROC": 0.9671763316987086,
+  "AUPRC": 0.9684756009946754,
+  "F1": 0.8334958772940864,
+  "Precision": 0.9666838046272493,
+  "Recall": 0.7325644821943427,
+  "FalseAlarmRate": 0.033364226135310475,
+  "seed": 123,
+  "cv_search_seconds": 1761.4,
+  "final_fit_seconds": 24.0,
+  "best_params": {
+    "n_estimators": 800,
+    "max_depth": 8,
+    "learning_rate": 0.15,
+    "min_child_weight": 1
+  },
+  "Model": "Tuned XGBoost"
+}

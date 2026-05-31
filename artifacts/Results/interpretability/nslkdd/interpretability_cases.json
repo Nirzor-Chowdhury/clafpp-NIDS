@@ -1,0 +1,630 @@
+[
+  {
+    "case_type": "TP",
+    "test_index": 17393,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "Probe",
+    "neural_meta_score": 0.9964,
+    "symbolic_score_raw": 0.5689,
+    "lambda": 0.0,
+    "final_score": 0.9964,
+    "threshold": 0.01,
+    "rules_fired": [
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TP",
+    "test_index": 9800,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "DoS",
+    "neural_meta_score": 0.9489,
+    "symbolic_score_raw": 0.5603,
+    "lambda": 0.0,
+    "final_score": 0.9489,
+    "threshold": 0.01,
+    "rules_fired": [
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TP",
+    "test_index": 14723,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "DoS",
+    "neural_meta_score": 0.9998,
+    "symbolic_score_raw": 0.9,
+    "lambda": 0.0,
+    "final_score": 0.9998,
+    "threshold": 0.01,
+    "rules_fired": [
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 1.0
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.7732
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0002
+      }
+    ]
+  },
+  {
+    "case_type": "TP",
+    "test_index": 2003,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "DoS",
+    "neural_meta_score": 0.9997,
+    "symbolic_score_raw": 0.4597,
+    "lambda": 0.0,
+    "final_score": 0.9997,
+    "threshold": 0.01,
+    "rules_fired": [
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.7515
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0002
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TP",
+    "test_index": 9678,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "DoS",
+    "neural_meta_score": 0.9995,
+    "symbolic_score_raw": 0.4078,
+    "lambda": 0.0,
+    "final_score": 0.9995,
+    "threshold": 0.01,
+    "rules_fired": [
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.6334
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0003
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 21983,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.0006,
+    "symbolic_score_raw": 0.1522,
+    "lambda": 0.0,
+    "final_score": 0.0006,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.1016
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0007
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 2080,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.0007,
+    "symbolic_score_raw": 0.1506,
+    "lambda": 0.0,
+    "final_score": 0.0007,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0895
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0033
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 11855,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.0004,
+    "symbolic_score_raw": 0.1558,
+    "lambda": 0.0,
+    "final_score": 0.0004,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.1016
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.009
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 17222,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.005,
+    "symbolic_score_raw": 0.1507,
+    "lambda": 0.0,
+    "final_score": 0.005,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0935
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0014
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 16643,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.0009,
+    "symbolic_score_raw": 0.2712,
+    "lambda": 0.0,
+    "final_score": 0.0009,
+    "threshold": 0.01,
+    "rules_fired": [
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.6376
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 11025,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.1279,
+    "symbolic_score_raw": 0.1527,
+    "lambda": 0.0,
+    "final_score": 0.1279,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.104
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 19008,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.9971,
+    "symbolic_score_raw": 0.5651,
+    "lambda": 0.0,
+    "final_score": 0.9971,
+    "threshold": 0.01,
+    "rules_fired": [
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.9914
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 9807,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.9991,
+    "symbolic_score_raw": 0.1296,
+    "lambda": 0.0,
+    "final_score": 0.9991,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0001
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 8188,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.9976,
+    "symbolic_score_raw": 0.4385,
+    "lambda": 0.0,
+    "final_score": 0.9976,
+    "threshold": 0.01,
+    "rules_fired": [
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.6956
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0153
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 3863,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.1316,
+    "symbolic_score_raw": 0.1521,
+    "lambda": 0.0,
+    "final_score": 0.1316,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.1016
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 12166,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "DoS",
+    "neural_meta_score": 0.0023,
+    "symbolic_score_raw": 0.1318,
+    "lambda": 0.0,
+    "final_score": 0.0023,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0102
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 5181,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "R2L",
+    "neural_meta_score": 0.0009,
+    "symbolic_score_raw": 0.1482,
+    "lambda": 0.0,
+    "final_score": 0.0009,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0837
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 10019,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "R2L",
+    "neural_meta_score": 0.0014,
+    "symbolic_score_raw": 0.1508,
+    "lambda": 0.0,
+    "final_score": 0.0014,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0955
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 9840,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "DoS",
+    "neural_meta_score": 0.002,
+    "symbolic_score_raw": 0.1301,
+    "lambda": 0.0,
+    "final_score": 0.002,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0023
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 18550,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "R2L",
+    "neural_meta_score": 0.0014,
+    "symbolic_score_raw": 0.1494,
+    "lambda": 0.0,
+    "final_score": 0.0014,
+    "threshold": 0.01,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "auth_compromise_pattern",
+        "confidence": 0.5
+      },
+      {
+        "name": "low_entropy_repetition",
+        "confidence": 0.0895
+      },
+      {
+        "name": "service_sweep_dispersion",
+        "confidence": 0.0006
+      },
+      {
+        "name": "syn_flood_consensus",
+        "confidence": 0.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "experiment_dir": "artifacts\\experiments\\edge_seed99",
+  "seed": 99,
+  "dataset_version": "Edge-IIoTset",
+  "positive_class": "attack",
+  "negative_class": "normal",
+  "train_samples": 60000,
+  "val_samples": 15000,
+  "test_samples": 25000,
+  "primary_method": "Meta-Learner (CLAF++)",
+  "final_method": "CLAF++ + Symbolic"
+}

@@ -1,0 +1,66 @@
+{
+  "gpu": "CPU",
+  "n_samples": 1000,
+  "n_repeats": 5,
+  "branches": [
+    {
+      "name": "AE",
+      "mean_total_ms": 9.524160000000848,
+      "std_total_ms": 0.09228921060244673,
+      "mean_per_sample_ms": 0.009524160000000847,
+      "throughput_per_sec": 104996.13614218064
+    },
+    {
+      "name": "GANomaly",
+      "mean_total_ms": 1.7884200000480632,
+      "std_total_ms": 0.09044232199477535,
+      "mean_per_sample_ms": 0.0017884200000480633,
+      "throughput_per_sec": 559152.7717052624
+    },
+    {
+      "name": "BiLSTM",
+      "mean_total_ms": 11.180920000333572,
+      "std_total_ms": 0.4564649401989138,
+      "mean_per_sample_ms": 0.011180920000333572,
+      "throughput_per_sec": 89438.07843810401
+    },
+    {
+      "name": "1D-CNN",
+      "mean_total_ms": 8.836280000286934,
+      "std_total_ms": 0.19323686390778216,
+      "mean_per_sample_ms": 0.008836280000286934,
+      "throughput_per_sec": 113169.7954306029
+    },
+    {
+      "name": "RF",
+      "mean_total_ms": 22.69191999985196,
+      "std_total_ms": 1.3685632282983742,
+      "mean_per_sample_ms": 0.022691919999851963,
+      "throughput_per_sec": 44068.5495104215
+    },
+    {
+      "name": "XGBoost",
+      "mean_total_ms": 4.245440000158851,
+      "std_total_ms": 0.03576219249817978,
+      "mean_per_sample_ms": 0.004245440000158851,
+      "throughput_per_sec": 235546.8455478309
+    },
+    {
+      "name": "Symbolic rules",
+      "mean_total_ms": 40.94121999987692,
+      "std_total_ms": 0.8700127113501681,
+      "mean_per_sample_ms": 0.04094121999987692,
+      "throughput_per_sec": 24425.261387008162
+    },
+    {
+      "name": "Meta-learner",
+      "mean_total_ms": 2.297080000062124,
+      "std_total_ms": 0.3165686870808977,
+      "mean_per_sample_ms": 0.002297080000062124,
+      "throughput_per_sec": 435335.2952326237
+    }
+  ],
+  "total_ms": 101.50544000061927,
+  "per_sample_ms": 0.10150544000061927,
+  "throughput_per_sec": 9851.688737016451
+}

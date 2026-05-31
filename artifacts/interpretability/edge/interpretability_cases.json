@@ -1,0 +1,630 @@
+[
+  {
+    "case_type": "TP",
+    "test_index": 19287,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "Uploading",
+    "neural_meta_score": 0.9971,
+    "symbolic_score_raw": 0.3475,
+    "lambda": 0.0,
+    "final_score": 0.9971,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.2451
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      },
+      {
+        "name": "http_injection",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TP",
+    "test_index": 11156,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "DDoS_ICMP",
+    "neural_meta_score": 0.9959,
+    "symbolic_score_raw": 0.5827,
+    "lambda": 0.0,
+    "final_score": 0.9959,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.2324
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TP",
+    "test_index": 16376,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "DDoS_HTTP",
+    "neural_meta_score": 0.998,
+    "symbolic_score_raw": 0.3475,
+    "lambda": 0.0,
+    "final_score": 0.998,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.2451
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      },
+      {
+        "name": "http_injection",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TP",
+    "test_index": 2403,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "DDoS_ICMP",
+    "neural_meta_score": 0.9961,
+    "symbolic_score_raw": 0.575,
+    "lambda": 0.0,
+    "final_score": 0.9961,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.2186
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TP",
+    "test_index": 10955,
+    "true_label": 1,
+    "predicted_label": 1,
+    "attack_family": "Uploading",
+    "neural_meta_score": 0.9991,
+    "symbolic_score_raw": 0.3475,
+    "lambda": 0.0,
+    "final_score": 0.9991,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.2451
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      },
+      {
+        "name": "http_injection",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 24402,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.0004,
+    "symbolic_score_raw": 0.714,
+    "lambda": 0.0,
+    "final_score": 0.0004,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.4688
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 2289,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.0004,
+    "symbolic_score_raw": 0.5897,
+    "lambda": 0.0,
+    "final_score": 0.0004,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.2451
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 13127,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.0004,
+    "symbolic_score_raw": 0.603,
+    "lambda": 0.0,
+    "final_score": 0.0004,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.2689
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 19056,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.0004,
+    "symbolic_score_raw": 0.4833,
+    "lambda": 0.0,
+    "final_score": 0.0004,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0534
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "TN",
+    "test_index": 18422,
+    "true_label": 0,
+    "predicted_label": 0,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.0004,
+    "symbolic_score_raw": 0.5897,
+    "lambda": 0.0,
+    "final_score": 0.0004,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.2451
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 17208,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.9369,
+    "symbolic_score_raw": 0.6884,
+    "lambda": 0.0,
+    "final_score": 0.9369,
+    "threshold": 0.73,
+    "rules_fired": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 10392,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.9626,
+    "symbolic_score_raw": 0.6884,
+    "lambda": 0.0,
+    "final_score": 0.9626,
+    "threshold": 0.73,
+    "rules_fired": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 3447,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.7514,
+    "symbolic_score_raw": 0.477,
+    "lambda": 0.0,
+    "final_score": 0.7514,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 20099,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.9621,
+    "symbolic_score_raw": 0.6884,
+    "lambda": 0.0,
+    "final_score": 0.9621,
+    "threshold": 0.73,
+    "rules_fired": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FP",
+    "test_index": 3324,
+    "true_label": 0,
+    "predicted_label": 1,
+    "attack_family": "Normal",
+    "neural_meta_score": 0.9597,
+    "symbolic_score_raw": 0.6884,
+    "lambda": 0.0,
+    "final_score": 0.9597,
+    "threshold": 0.73,
+    "rules_fired": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 11135,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "Port_Scanning",
+    "neural_meta_score": 0.3864,
+    "symbolic_score_raw": 0.6884,
+    "lambda": 0.0,
+    "final_score": 0.3864,
+    "threshold": 0.73,
+    "rules_fired": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 4751,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "Port_Scanning",
+    "neural_meta_score": 0.4362,
+    "symbolic_score_raw": 0.6884,
+    "lambda": 0.0,
+    "final_score": 0.4362,
+    "threshold": 0.73,
+    "rules_fired": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 9221,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "Port_Scanning",
+    "neural_meta_score": 0.1764,
+    "symbolic_score_raw": 0.6884,
+    "lambda": 0.0,
+    "final_score": 0.1764,
+    "threshold": 0.73,
+    "rules_fired": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 8630,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "Port_Scanning",
+    "neural_meta_score": 0.4057,
+    "symbolic_score_raw": 0.6884,
+    "lambda": 0.0,
+    "final_score": 0.4057,
+    "threshold": 0.73,
+    "rules_fired": [
+      {
+        "name": "recon_dns_arp",
+        "confidence": 1.0
+      }
+    ],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  },
+  {
+    "case_type": "FN",
+    "test_index": 17397,
+    "true_label": 1,
+    "predicted_label": 0,
+    "attack_family": "Ransomware",
+    "neural_meta_score": 0.5203,
+    "symbolic_score_raw": 0.477,
+    "lambda": 0.0,
+    "final_score": 0.5203,
+    "threshold": 0.73,
+    "rules_fired": [],
+    "rules_quiet": [
+      {
+        "name": "http_injection",
+        "confidence": 0.5
+      },
+      {
+        "name": "recon_dns_arp",
+        "confidence": 0.5
+      },
+      {
+        "name": "ddos_flag_storm",
+        "confidence": 0.0421
+      },
+      {
+        "name": "mqtt_anomaly",
+        "confidence": 0.0
+      }
+    ]
+  }
+]

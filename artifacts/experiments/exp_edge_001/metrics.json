@@ -1,0 +1,178 @@
+{
+  "AE only": {
+    "threshold": 0.3215,
+    "accuracy": 0.8962,
+    "precision": 0.893757051523129,
+    "recall": 0.7007223942208463,
+    "f1": 0.7855549128171225,
+    "auroc": 0.8759396432564641,
+    "auprc": 0.8061269257894659,
+    "detection_rate": 0.7007223942208463,
+    "false_alarm_rate": 0.031014986002085965,
+    "specificity": 0.968985013997914,
+    "confusion_matrix": [
+      [
+        17652,
+        565
+      ],
+      [
+        2030,
+        4753
+      ]
+    ]
+  },
+  "Generative branch": {
+    "threshold": 0.1613,
+    "accuracy": 0.92292,
+    "precision": 0.9416151327755548,
+    "recall": 0.7632316084328469,
+    "f1": 0.8430909535054149,
+    "auroc": 0.953060128371489,
+    "auprc": 0.9128209157435103,
+    "detection_rate": 0.7632316084328469,
+    "false_alarm_rate": 0.0176209035516276,
+    "specificity": 0.9823790964483724,
+    "confusion_matrix": [
+      [
+        17896,
+        321
+      ],
+      [
+        1606,
+        5177
+      ]
+    ]
+  },
+  "LSTM": {
+    "threshold": 0.0812,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "detection_rate": 1.0,
+    "false_alarm_rate": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        18217,
+        0
+      ],
+      [
+        0,
+        6783
+      ]
+    ]
+  },
+  "CNN": {
+    "threshold": 0.01,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "detection_rate": 1.0,
+    "false_alarm_rate": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        18217,
+        0
+      ],
+      [
+        0,
+        6783
+      ]
+    ]
+  },
+  "RF/XGB": {
+    "threshold": 0.0367,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "detection_rate": 1.0,
+    "false_alarm_rate": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        18217,
+        0
+      ],
+      [
+        0,
+        6783
+      ]
+    ]
+  },
+  "Ensemble (no meta)": {
+    "threshold": 0.19690000000000002,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "detection_rate": 1.0,
+    "false_alarm_rate": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        18217,
+        0
+      ],
+      [
+        0,
+        6783
+      ]
+    ]
+  },
+  "Meta-Learner (CLAF++)": {
+    "threshold": 0.0634,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "detection_rate": 1.0,
+    "false_alarm_rate": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        18217,
+        0
+      ],
+      [
+        0,
+        6783
+      ]
+    ]
+  },
+  "CLAF++ + Symbolic": {
+    "threshold": 0.0634,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "auroc": 1.0,
+    "auprc": 1.0,
+    "detection_rate": 1.0,
+    "false_alarm_rate": 0.0,
+    "specificity": 1.0,
+    "confusion_matrix": [
+      [
+        18217,
+        0
+      ],
+      [
+        0,
+        6783
+      ]
+    ]
+  }
+}
