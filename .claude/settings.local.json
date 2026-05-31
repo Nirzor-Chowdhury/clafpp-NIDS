@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python run_binary_ids.py --config configs/base.yaml --experiment-id exp_051)"
-    ]
-  }
-}
